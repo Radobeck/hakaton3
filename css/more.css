@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.more_nav {
+  width: 100%;
+  height: 250px;
+  background-image: url(../more/1681968795_3-109.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.more_text {
+  width: 100%;
+  height: 200px;
+  font-size: 54px;
+  color: white;
+  font-family: Ubuntu, Arial, sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cull {
+  background-color: #000;
+  width: 100%;
+}
+.description {
+  margin: 0 150px;
+}
+.full_size {
+  width: 100%;
+}
+
+.data_full {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Ubuntu, Arial, sans-serif;
+}
+
+.full_text {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Ubuntu, Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.full_link {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Ubuntu, Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.review {
+  width: 100%;
+  display: flex;
+}
+
+.rev {
+  width: 60%;
+}
+.review_text {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.55;
+  margin-top: 70px;
+}
+.review_list {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.55;
+}
+.review_title {
+  margin-top: 30px;
+  line-height: 1.55;
+}
+
+.img_review {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 120px;
+  width: 350px;
+  height: 350px;
+}
+.blog_btn {
+  margin-top: 40px;
+  background-color: #424242;
+  color: white;
+  width: 180px;
+  height: 60px;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 7px;
+  border-style: none;
+  transition: 0.3s;
+}
+
+.blog_btn:hover {
+  background-color: #3e3549;
+  color: white;
+  width: 160px;
+  height: 50px;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 15px;
+}
+
+.btn_href {
+  text-decoration: none;
+  color: white;
+  background-color: #424242;
+}
+.btn_href:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #3e3549;
+}
+footer {
+  margin-top: 100px;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+.footer {
+  margin: 0 150px;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed rgba(224, 224, 224, 0.61);
+}
+
+.headphones_ftr {
+  width: 30%;
+  color: white;
+  margin-top: 100px;
+}
+
+.footer_list {
+  list-style-type: none;
+}
+
+.footer_txt {
+  color: white;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 600;
+}
+
+.footer_title {
+  margin-top: 20px;
+}
+
+.footer_title-text {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer_titles {
+  margin-top: 10px;
+}
+
+.footer_text {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.footer_title-txt {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer_title-texti {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer_title-text:hover {
+  color: chocolate;
+}
+
+.footer_title-texti:hover {
+  color: chocolate;
+}
+
+.footer_title-txt:hover {
+  color: chocolate;
+}
+
+.logo_call {
+  display: flex;
+  justify-content: center;
+}
+
+.ftr_call {
+  margin: 30px;
+}

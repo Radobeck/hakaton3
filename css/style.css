@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ! NAVBAR */
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+}
+.navbar_left {
+  padding: 0 0 0 5rem;
+}
+.navbar_center {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+.navbar_right {
+  padding: 0 5rem 0 0;
+}
+.navbar_list {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+  font-family: Ubuntu;
+}
+.item {
+  width: auto;
+  margin: 0 5% 0 5%;
+}
+.navbar_add-btn {
+  color: white;
+  background-color: black;
+  border-style: none;
+  font-size: 16px;
+}
+#about-us {
+  text-decoration: none;
+  color: white;
+}
+#items {
+  text-decoration: none;
+  color: white;
+}
+
+/* ! NAVBAR */
+
+/* ! PRODUCTS */
+.products {
+  padding-top: 80px;
+  background-color: rgb(24, 22, 22);
+}
+.products-top {
+  display: flex;
+  justify-content: center;
+}
+
+.products-center {
+  display: flex;
+  justify-content: end;
+}
+.products-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  padding: 80px 5% 0 5%;
+}
+.products_h1 {
+  font-family: Ubuntu;
+  color: white;
+}
+#search-products {
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border-style: none;
+  margin-right: 0.2%;
+}
+#search-btn {
+  background-image: "https://img.icons8.com/ios-filled/50/search--v1.png";
+  margin-right: 1%;
+  font-family: Ubuntu;
+
+  padding: 5px 0.5% 5px 0.5%;
+  transition: 0.1s;
+}
+
+#products_select {
+  border-radius: 3px;
+  border-style: none;
+  margin-right: 1%;
+}
+
+/* ?CARDS STYLE */
+.cardContainer {
+  margin: 60px 2% 60px 2%;
+  margin-bottom: 60px;
+  width: 25%;
+  height: 100%;
+  transition: 0.1s;
+}
+.cardContainer:hover {
+  border-color: white;
+  border-width: 5px;
+}
+.card-image {
+  width: 90%;
+  height: 90%;
+  margin-bottom: 30px;
+  transition: 0.1s;
+}
+.card-image:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.card-title {
+  margin-bottom: 20px;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 20px;
+}
+.card-description {
+  margin-bottom: 20px;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 14px;
+}
+.card-price {
+  color: white;
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* ?CARDS STYLE */
+/* ! PRODUCTS */
+
+/* ! MODAL */
+/* Модальный (фон) */
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed; /* Оставаться на месте */
+  z-index: 1; /* Сидеть на вершине */
+  left: 0;
+  top: 0;
+  width: 100%; /* Полная ширина */
+  height: 100%; /* Полная высота */
+  overflow: auto; /* Включите прокрутку, если это необходимо */
+  background-color: rgb(0, 0, 0); /* Цвет запасной вариант */
+  background-color: rgba(0, 0, 0, 0.4); /* Черный с непрозрачностью */
+}
+
+/* Модальное содержание/коробка */
+.modal-content {
+  background-color: black;
+  /* display: flex;
+  justify-content: center; */
+  /* background-color: #fefefe; */
+  margin: 15% auto; /* 15% сверху и по центру */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  height: 70%;
+}
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.modal-content_top {
+  margin-bottom: 40px;
+}
+.modal-content_center {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+/* .modal-content_bottom {
+} */
+/* .modal-content_bottom {
+  
+} */
+.modal_h3 {
+  color: white;
+  font-family: Ubuntu;
+}
+.modal-input {
+  border-radius: 10px;
+  height: 45px;
+  width: 300px;
+  border-style: none;
+  margin-bottom: 25px;
+  padding-left: 10px;
+}
+.modal-input::placeholder {
+  font-family: Ubuntu;
+}
+.modal-btn {
+  font-family: Ubuntu;
+  font-size: 15px;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  transition: 0.1s;
+  border-style: none;
+}
+.modal-btn:hover {
+  background-color: rgb(79, 76, 76);
+}
+/* Кнопка закрытия */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 5% 80% 40%;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* ! MODAL */
+
+.test {
+  background-color: black;
+}
+.delete-btn {
+  font-size: 15px;
+  margin: 20px 50px 0 10px;
+  font-family: Ubuntu;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+  transition: 0.1s;
+}
+.edit-btn {
+  font-size: 15px;
+  font-family: Ubuntu;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  border-style: none;
+  transition: 0.1s;
+}
+.delete-btn:hover {
+  background-color: gray;
+}
+.edit-btn:hover {
+  background-color: gray;
+}

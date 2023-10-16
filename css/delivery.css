@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.delivery {
+  margin: 0 150px;
+}
+.delivery_text {
+  margin-top: 50px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+  font-family: Ubuntu;
+}
+
+.delivery-img {
+  width: 100%;
+  display: flex;
+}
+.img-left {
+  margin-top: 80px;
+  width: 550px;
+  height: 530px;
+}
+.delivery_list {
+  margin-left: 50px;
+}
+.img_text-right {
+  font-size: 22px;
+  font-family: Ubuntu;
+  width: 500;
+  color: white;
+  margin-top: 80px;
+}
+.delivery_title {
+  color: white;
+  margin-top: 12px;
+  font-size: 22px;
+  font-family: Ubuntu;
+  margin-left: 20px;
+}
+.warranty {
+  width: 100%;
+  display: flex;
+}
+.warranty_list {
+  list-style-type: none;
+  margin-top: 130px;
+}
+.warranty_text {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+.warranty_title {
+  margin-top: 30px;
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu;
+}
+.warranty_title-2 {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu;
+}
+
+.warranty_img {
+  margin-top: 50px;
+  width: 550px;
+  height: 530px;
+}
+
+.about_text {
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.about {
+  width: 100%;
+  display: flex;
+}
+.about_img {
+  margin-top: 60px;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about_img-humen {
+  margin: 5px;
+  width: auto;
+  height: auto;
+}
+.about_img-humen2 {
+  margin: 5px;
+}
+.about_img-humen3 {
+  margin: 5px;
+}
+.about_img-humen4 {
+  margin: 5px;
+}
+.about_image {
+  width: 270px;
+  height: 250px;
+}
+
+.about_title {
+  margin-top: 60px;
+  width: 47%;
+}
+.about_title-text {
+  color: white;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 500;
+}
+.anout_title-p {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu, Arial, sans-serif;
+  margin-top: 20px;
+  line-height: 1.55;
+}
+.headphones {
+  width: 100%;
+  display: flex;
+  margin-top: 70px;
+}
+
+.list_phones {
+  list-style-type: none;
+  width: 50%;
+}
+
+.headphones_type {
+  margin-top: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Ubuntu Arial, sans-serif;
+  display: flex;
+}
+.headphones_p {
+  margin-top: 20px;
+  color: white;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.55;
+  font-family: Ubuntu Arial, sans-serif;
+  display: flex;
+}
+.logo_headphones {
+  width: 50%;
+  display: flex;
+}
+.button_view_products {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.view_products {
+  background-color: #424242;
+  color: white;
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 7px;
+  border-style: none;
+  transition: 0.3s;
+}
+.view_products:hover {
+  background-color: #353824;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 15px;
+  width: 190px;
+  height: 70px;
+}
+
+.our_blog {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Ubuntu Arial, sans-serif;
+  color: white;
+  margin-top: 70px;
+}
+
+.our_blog-img {
+  width: 100%;
+}
+.img_blog {
+  width: 45%;
+  margin-top: 40px;
+}
+.our_image {
+  width: 550px;
+  width: 500px;
+}
+.blog_text {
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 30px;
+  color: white;
+}
+.blog_title {
+  font-size: 14px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  color: white;
+}
+.blog_btn {
+  margin-top: 40px;
+  background-color: #424242;
+  color: white;
+  width: 180px;
+  height: 60px;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 7px;
+  border-style: none;
+  transition: 0.3s;
+}
+.blog_btn:hover {
+  background-color: #3e3549;
+  color: white;
+  width: 160px;
+  height: 50px;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  border-radius: 15px;
+}
+.btn_href {
+  text-decoration: none;
+  color: white;
+  background-color: #424242;
+}
+.btn_href:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #3e3549;
+}
+footer {
+  margin: 0 150px;
+  margin-top: 100px;
+}
+.footer {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed rgba(224, 224, 224, 0.61);
+}
+.headphones_ftr {
+  width: 30%;
+  color: white;
+  margin-top: 100px;
+}
+.footer_list {
+  list-style-type: none;
+}
+.footer_txt {
+  color: white;
+  font-size: 26px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 600;
+}
+.footer_title {
+  margin-top: 20px;
+}
+
+.footer_title-text {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.footer_titles {
+  margin-top: 10px;
+}
+.footer_text {
+  color: white;
+  font-size: 22px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.footer_title-txt {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer_title-texti {
+  color: white;
+  font-size: 18px;
+  font-family: Ubuntu Arial, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.footer_title-text:hover {
+  color: chocolate;
+}
+.footer_title-texti:hover {
+  color: chocolate;
+}
+.footer_title-txt:hover {
+  color: chocolate;
+}
+.logo_call {
+  display: flex;
+  justify-content: center;
+}
+.ftr_call {
+  margin: 30px;
+}

@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "title": "Product titel 3",
+      "description": "Third best headPhones ",
+      "price": "5000",
+      "imageUrl": "https://thumb.tildacdn.com/tild3431-6533-4065-b035-623663393163/-/format/webp/jib_wireless_blue.jpg",
+      "id": 5
+    },
+    {
+      "title": "Product title 4",
+      "description": "Forth best headPhones ",
+      "price": "6000",
+      "imageUrl": "https://thumb.tildacdn.com/tild3635-6566-4335-b130-333730633237/-/format/webp/jib__active_wireless.jpg",
+      "id": 6
+    },
+    {
+      "title": "Product title 5",
+      "description": "fifth best headPhones",
+      "price": "7000",
+      "imageUrl": "https://thumb.tildacdn.com/tild3261-6431-4664-a162-666131303131/-/format/webp/jib__wireless_red.jpg",
+      "id": 7
+    },
+    {
+      "title": "Product title 6",
+      "description": "sixth best headPhones",
+      "price": "8000",
+      "imageUrl": "https://thumb.tildacdn.com/tild3561-3330-4364-a366-613961336564/-/format/webp/method_wireless_anc_.jpg",
+      "id": 8
+    }
+  ]
+}

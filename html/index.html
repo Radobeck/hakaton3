@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ! NAVBAR -->
+    <div class="navbar">
+      <div class="navbar_left">
+        <img
+          width="200"
+          height="40"
+          src="https://static.tildacdn.com/tild3961-6631-4137-a161-373161623364/skullcandy_bianco.png"
+          alt="navbar_logo"
+          class="navbar_logo"
+        />
+      </div>
+
+      <div class="navbar_center">
+        <ul class="navbar_list">
+          <li class="item">Товары</li>
+          <li class="item">Доставка</li>
+          <li class="item">
+            <a id="about-us" href="./delivery.html">О нас</a>
+          </li>
+          <li class="item">Блог</li>
+        </ul>
+      </div>
+
+      <div class="navbar_right">
+        <button class="navbar_add-btn">Добавить продукт</button>
+      </div>
+    </div>
+    <!-- ! NAVBAR -->
+
+    <!-- ! PRODUCTS -->
+    <div class="products">
+      <div class="products-top">
+        <h1 class="products_h1">Наушники в Бишкеке</h1>
+      </div>
+
+      <div class="products-center">
+        <input type="text" placeholder="Найти товар" id="search-products" />
+        <button id="search-btn">Найти</button>
+        <select
+          name="user_profile_color_2"
+          required="required"
+          id="products_select"
+        >
+          <option value="">Выберите значение</option>
+          <option value="1">Синий</option>
+          <option value="2">Зеленый</option>
+          <option value="3">Желтый</option>
+          <option value="4">Красный</option>
+          <option value="5">Оранжевый</option>
+          <option value="6">Черный</option>
+        </select>
+      </div>
+
+      <div class="products-bottom"></div>
+    </div>
+
+    <!-- <div class="test">
+      <div class="cardContainer">
+        <img
+          src="https://thumb.tildacdn.com/tild3861-3135-4363-a430-666138353932/-/format/webp/inkd_wireless_blue_o.jpg"
+          alt=""
+          class="card-image"
+        />
+        <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+        <p class="card-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+          totam.
+        </p>
+        <p class="card-price">3400 com</p>
+        <button class="delete-btn">Delete</button>
+        <button class="edit-btn">Edit</button>
+      </div>
+    </div> -->
+    <!-- ! PRODUCTS -->
+
+    <!-- ! MODAL -->
+    <!-- Триггер/Открыть модальный -->
+    <!-- <button id="addBtn">Открыть модальный</button> -->
+
+    <!-- Модальный -->
+    <div id="modalWindow" class="modal">
+      <!-- Модальное содержание -->
+      <div class="modal-content">
+        <div class="modal-container">
+          <div class="modal-content_top">
+            <h3 class="modal_h3">Добавление товара</h3>
+          </div>
+
+          <div class="modal-content_center">
+            <input
+              class="modal-input"
+              id="inp-desc"
+              type="text"
+              placeholder="Описание"
+            />
+            <input
+              class="modal-input"
+              id="inp-title"
+              type="text"
+              placeholder="Название"
+            />
+            <input
+              class="modal-input"
+              id="inp-price"
+              type="text"
+              placeholder="Цена"
+            />
+            <input
+              class="modal-input"
+              id="inp-image"
+              type="text"
+              placeholder="Изображение"
+            />
+          </div>
+
+          <div class="modal-content_bottom">
+            <button class="modal-btn" id="closeModal">Закрыть</button>
+            <button class="modal-btn" id="addProduct">Добавить</button>
+          </div>
+        </div>
+        <span class="close">&times;</span>
+      </div>
+    </div>
+
+    <!-- ! MODAL -->
+
+    <!-- !  EDIT MODAL -->
+    <!-- Триггер/Открыть модальный -->
+    <!-- <button id="addBtn">Открыть модальный</button> -->
+
+    <!-- Модальный -->
+    <div id="editModalWindow" class="modal">
+      <!-- Модальное содержание -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <input id="editInp-title" type="text" placeholder="Название" />
+        <input id="editInp-desc" type="text" placeholder="Описание" />
+        <input id="editInp-price" type="text" placeholder="Цена" />
+        <input id="editInp-image" type="text" placeholder="Изображение" />
+        <button id="closeModal">Закрыть</button>
+        <button id="addEditBtn">Изменить</button>
+      </div>
+    </div>
+
+    <!-- !  EDIT MODAL -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+
+<!-- <div class="cardContainer">
+          <img
+            src="https://thumb.tildacdn.com/tild3861-3135-4363-a430-666138353932/-/format/webp/inkd_wireless_blue_o.jpg"
+            alt=""
+            class="card-image"
+          />
+          <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+          <p class="card-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            totam.
+          </p>
+          <p class="card-price">3400 com</p>
+        </div> -->
